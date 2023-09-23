@@ -181,6 +181,30 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "redirect.shirts",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Shirts",
+    "name": "60773be3-59f6-464b-b9b9-73aefdcd678d",
+    "description": "redirect.shirts"
+  }, {
+    "intent": "redirect.music",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Music",
+    "name": "e980c42e-a228-487a-8c0e-b849cff4005b",
+    "description": "redirect.music"
+  }, {
+    "intent": "redirect.price",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Price",
+    "name": "0b798571-6d62-4b5c-87c7-c978ea1a6309",
+    "description": "redirect.price"
+  }, {
     "condition": "$session.params.artist != null AND $session.params.merch != null",
     "triggerFulfillment": {
       "messages": [ {

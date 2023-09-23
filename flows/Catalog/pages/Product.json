@@ -2,6 +2,87 @@
   "name": "ccd2f5b7-8c5b-46bc-a990-0cb1cd692be2",
   "displayName": "Product",
   "form": {
-  
+    "parameters": [ {
+      "displayName": "artist",
+      "required": true,
+      "entityType": "@Artist",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "You didn't mention which artist you are interested in. You can ask me to buy the $session.params.merch of the artist you like or ask which artists we signed. How can I help?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Which artists?"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I couldn't understand what you just said. Ask me which artists are signed." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "c9a4ff9b-0033-420b-8260-de0e44d968fe"
+        }, {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I missed that. Please ask me which artists are signed." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "af2195a7-7cbf-4a17-9a2a-e00a3c311553"
+        } ]
+      },
+      "redact": true
+    }, {
+      "displayName": "merch",
+      "required": true,
+      "entityType": "@Merch",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I couldn't understand what you just said. Which merchandise item do you want?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "efd965d0-b979-4b42-b414-f81007c5263e"
+        }, {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I missed that. Which merchandise item do you want?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "86528215-a3d0-4554-9840-4a371d0775b4"
+        } ]
+      },
+      "redact": true
+    } ]
   }
 }

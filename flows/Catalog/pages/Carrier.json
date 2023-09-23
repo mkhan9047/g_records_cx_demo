@@ -1,11 +1,11 @@
 {
-  "name": "da5911f9-90c7-4ee2-b84a-e06c15d9a70b",
-  "displayName": "Music",
+  "name": "8f81c41b-0a9b-476d-a9c4-5c65b2f7bca7",
+  "displayName": "Carrier",
   "form": {
     "parameters": [ {
-      "displayName": "album",
+      "displayName": "merch",
       "required": true,
-      "entityType": "@Album",
+      "entityType": "@Merch",
       "fillBehavior": {
         "initialPromptFulfillment": {
         
@@ -15,16 +15,16 @@
           "triggerFulfillment": {
             "messages": [ {
               "text": {
-                "text": [ "You can choose between Greatest Hits and Live Album. Which of these do you want?" ]
+                "text": [ "Do you want a physical CD or the digital album?" ]
               },
               "languageCode": "en"
             }, {
               "payload": {
                 "richContent": [ [ {
                   "options": [ {
-                    "text": "Greatest Hits"
+                    "text": "CD"
                   }, {
-                    "text": "Live"
+                    "text": "Digital Album"
                   } ],
                   "type": "chips"
                 } ] ]
@@ -32,22 +32,22 @@
               "languageCode": "en"
             } ]
           },
-          "name": "aa992d4c-4292-4c2f-945c-06cc01f98127"
+          "name": "16b9c4b3-e864-425f-8e1a-8c48f54d09f4"
         }, {
           "event": "sys.no-input-default",
           "triggerFulfillment": {
             "messages": [ {
               "text": {
-                "text": [ "I couldn't understand if you want the album: Greatest Hit or Live. Which of these do you want?" ]
+                "text": [ "I couldn't understand if you mean CD or MP3. Which one do you want?" ]
               },
               "languageCode": "en"
             }, {
               "payload": {
                 "richContent": [ [ {
                   "options": [ {
-                    "text": "Greatest Hits"
+                    "text": "CD"
                   }, {
-                    "text": "Live"
+                    "text": "MP3"
                   } ],
                   "type": "chips"
                 } ] ]
@@ -55,7 +55,7 @@
               "languageCode": "en"
             } ]
           },
-          "name": "0ad077fe-f470-428d-9e77-f2ba8716e75c"
+          "name": "c7dacb59-26d7-49ec-b5f2-b342778e6879"
         } ]
       },
       "redact": true
@@ -64,16 +64,16 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "We have a Greatest Hits Album or the Live Album. Which one do you want?" ]
+        "text": [ "Do you want this album on CD or MP3?" ]
       },
       "languageCode": "en"
     }, {
       "payload": {
         "richContent": [ [ {
           "options": [ {
-            "text": "Greatest Hits"
+            "text": "CD"
           }, {
-            "text": "Live"
+            "text": "MP3"
           }, {
             "text": "Price?"
           } ],
@@ -81,10 +81,6 @@
         } ] ]
       },
       "languageCode": "en"
-    } ],
-    "setParameterActions": [ {
-      "parameter": "category",
-      "value": "music"
     } ]
   },
   "transitionRoutes": [ {
@@ -93,14 +89,14 @@
     
     },
     "targetPage": "Price",
-    "name": "0b63a7f1-0678-4ede-a626-03e5f853a50f",
+    "name": "2194c517-ecd4-4f23-8d86-aa95f5a5d6e9",
     "description": "redirect.price"
   }, {
-    "condition": "$page.params.album != \"null\"",
+    "condition": "$page.params.merch != \"null\"",
     "triggerFulfillment": {
     
     },
-    "targetPage": "Carrier",
-    "name": "8f5c452d-35cd-488a-a4c7-1af8683f9728"
+    "targetPage": "Product",
+    "name": "80e037d5-b885-47d1-972a-8ce84d1ebb93"
   } ]
 }
