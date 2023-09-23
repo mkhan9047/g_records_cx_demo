@@ -1,0 +1,14 @@
+{
+  "name": "df068f55-1674-48ed-b158-882f0cbb0487",
+  "displayName": "redirect.shirts",
+  "parameters": [ {
+    "id": "artist",
+    "entityType": "@Artist"
+  }, {
+    "id": "album",
+    "entityType": "@Album"
+  } ],
+  "priority": 500000,
+  "description": "Shirts: The user wants to buy shirts",
+  "numTrainingPhrases": 7
+}

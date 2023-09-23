@@ -1,0 +1,11 @@
+{
+  "name": "268880e1-c2a7-4e67-b58a-df05c66672d5",
+  "displayName": "redirect.home",
+  "parameters": [ {
+    "id": "artist",
+    "entityType": "@Artist"
+  } ],
+  "priority": 500000,
+  "description": "Redirect Home: The user wants to redirect to the home",
+  "numTrainingPhrases": 11
+}

@@ -1,0 +1,17 @@
+{
+  "name": "e51a135c-14b6-481c-90d6-82dfe0155f4c",
+  "displayName": "redirect.product.of.artist",
+  "parameters": [ {
+    "id": "shirtsize",
+    "entityType": "@ShirtSize"
+  }, {
+    "id": "album",
+    "entityType": "@Album"
+  }, {
+    "id": "artist",
+    "entityType": "@Artist"
+  } ],
+  "priority": 500000,
+  "description": "Product of Artis: The user wants the product of a specific artist",
+  "numTrainingPhrases": 12
+}

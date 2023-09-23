@@ -1,0 +1,7 @@
+{
+  "name": "486d9734-59c5-4a1b-9b06-4c98e2653837",
+  "displayName": "redirect.product.overview",
+  "priority": 500000,
+  "description": "Product Overview: Which products are available",
+  "numTrainingPhrases": 7
+}

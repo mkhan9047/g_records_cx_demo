@@ -1,0 +1,11 @@
+{
+  "name": "fe82b467-f9c7-43ee-9777-95904e94f3c9",
+  "displayName": "redirect.my.order.status",
+  "parameters": [ {
+    "id": "ordernumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "description": "Order Status: The user wants to know about his order status",
+  "numTrainingPhrases": 4
+}

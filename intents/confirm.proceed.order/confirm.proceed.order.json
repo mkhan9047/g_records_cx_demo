@@ -1,0 +1,7 @@
+{
+  "name": "0b7d27e7-3099-4412-bc88-cbe2d601efae",
+  "displayName": "confirm.proceed.order",
+  "priority": 500000,
+  "description": "Confirm Order: The user wants to confirm the order",
+  "numTrainingPhrases": 13
+}

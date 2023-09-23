@@ -1,0 +1,11 @@
+{
+  "name": "e34f4333-c412-4e49-8c05-d941e0e1bb02",
+  "displayName": "redirect.shipping.info",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "description": "Shipping Info: The user wants to know about the shipping ",
+  "numTrainingPhrases": 4
+}

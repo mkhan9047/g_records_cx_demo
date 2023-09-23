@@ -1,0 +1,14 @@
+{
+  "name": "fa732fe1-774e-4dee-aec4-96c60924c41b",
+  "displayName": "confirm.artists.overview",
+  "parameters": [ {
+    "id": "artist",
+    "entityType": "@Artist"
+  }, {
+    "id": "shirtsize",
+    "entityType": "@ShirtSize"
+  } ],
+  "priority": 500000,
+  "description": "Confirm Artist: Select the Artist to buy",
+  "numTrainingPhrases": 4
+}

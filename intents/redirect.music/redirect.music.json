@@ -1,0 +1,17 @@
+{
+  "name": "8373a79b-9353-46e7-b946-a8ae7ff298cf",
+  "displayName": "redirect.music",
+  "parameters": [ {
+    "id": "album",
+    "entityType": "@Album"
+  }, {
+    "id": "artist",
+    "entityType": "@Artist"
+  }, {
+    "id": "merch",
+    "entityType": "@Merch"
+  } ],
+  "priority": 500000,
+  "description": "Music: The user wants to buy music",
+  "numTrainingPhrases": 7
+}

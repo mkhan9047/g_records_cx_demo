@@ -1,33 +1,6 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
-  "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Welcome, I am the virtual agent of G-Records, a fictional rock label. You can order artists' merchandise, ask questions about your order or shipping, and I can tell you more about which artists are currently signed with us. How can I help?" ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Which artists?"
-            }, {
-              "text": "Which products?"
-            }, {
-              "text": "About my order..."
-            } ],
-            "type": "chips"
-          } ] ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "bdf1bf60-a5ee-4ba8-ad3d-f3fb2ceabde6"
-  } ],
+  "name": "fc163049-65e5-48f3-83c0-812441227f10",
+  "displayName": "Catalog",
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
@@ -38,7 +11,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "d24b90fc-135d-4820-9713-ee667660688f"
+    "name": "fe0b3b7c-2f5d-4e83-8c17-62b6b1cbab06"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -49,7 +22,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "cc28ac81-2838-48b6-9110-4426557fa2b1"
+    "name": "1ad3b21e-3513-4010-b30c-c86147c38b2d"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

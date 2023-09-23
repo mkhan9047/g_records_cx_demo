@@ -1,0 +1,17 @@
+{
+  "name": "6a7dc4ea-f27b-41dc-9f84-e59ec3c45bc1",
+  "displayName": "redirect.order.process",
+  "parameters": [ {
+    "id": "merch",
+    "entityType": "@Merch"
+  }, {
+    "id": "artist",
+    "entityType": "@Artist"
+  }, {
+    "id": "shirtsize",
+    "entityType": "@ShirtSize"
+  } ],
+  "priority": 500000,
+  "description": "Direct Order: The user wants to order something",
+  "numTrainingPhrases": 6
+}

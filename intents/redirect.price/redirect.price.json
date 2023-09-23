@@ -1,0 +1,14 @@
+{
+  "name": "707d180c-5d59-4207-9af8-55da740981a4",
+  "displayName": "redirect.price",
+  "parameters": [ {
+    "id": "merch",
+    "entityType": "@Merch"
+  }, {
+    "id": "shirtsize",
+    "entityType": "@ShirtSize"
+  } ],
+  "priority": 500000,
+  "description": "Knowing Price: The user wants to know the price",
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,11 @@
+{
+  "name": "e9731370-80d2-440c-8b53-e8ece6a37d0c",
+  "displayName": "redirect.my.order",
+  "parameters": [ {
+    "id": "ordernumber",
+    "entityType": "@OrderNumber"
+  } ],
+  "priority": 500000,
+  "description": "Order: User wants to know about his order",
+  "numTrainingPhrases": 3
+}

@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "T-shirt",
+    "synonyms": [ "t-shirt", "T-shirt" ],
+    "languageCode": "en"
+  }, {
+    "value": "Longsleeve",
+    "synonyms": [ "Longsleeve", "Longsleeve shirt" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tour Movie",
+    "synonyms": [ "TM", "Tour Movie" ],
+    "languageCode": "en"
+  }, {
+    "value": "Digital Album",
+    "synonyms": [ "Digital Album", "MP3", "MP3 Album" ],
+    "languageCode": "en"
+  }, {
+    "value": "CD",
+    "synonyms": [ "CD", "Disc", "Physical Disk" ],
+    "languageCode": "en"
+  } ]
+}

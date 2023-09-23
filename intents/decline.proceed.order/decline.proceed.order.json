@@ -1,0 +1,7 @@
+{
+  "name": "a94fe54f-6973-40f9-8005-13243b092168",
+  "displayName": "decline.proceed.order",
+  "priority": 500000,
+  "description": "Decline Order: The user wants to decline the order",
+  "numTrainingPhrases": 11
+}

@@ -1,0 +1,14 @@
+{
+  "name": "885ee0a0-17e8-4a8d-80e1-e0bf782e9eb1",
+  "displayName": "redirect.end",
+  "parameters": [ {
+    "id": "shirtsize",
+    "entityType": "@ShirtSize"
+  }, {
+    "id": "artist",
+    "entityType": "@Artist"
+  } ],
+  "priority": 500000,
+  "description": "End: The user wants to end the converstation",
+  "numTrainingPhrases": 10
+}
