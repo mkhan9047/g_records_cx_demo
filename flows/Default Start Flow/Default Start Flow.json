@@ -27,6 +27,110 @@
       } ]
     },
     "name": "bdf1bf60-a5ee-4ba8-ad3d-f3fb2ceabde6"
+  }, {
+    "intent": "redirect.artists.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "f1a581f0-a513-48c4-b211-1d054c42ffb0",
+    "description": "redirect.artists.overview"
+  }, {
+    "intent": "redirect.product.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "a49abdb8-310f-4beb-bbdf-6e83a3f2b8ed",
+    "description": "redirect.product.overview\n\n"
+  }, {
+    "intent": "redirect.shirts",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "35aa14ef-931b-4238-93cd-e15c55de1bc6",
+    "description": "redirect.shirts\n\n"
+  }, {
+    "intent": "redirect.music",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "17d20dc2-a1c9-4711-9414-87ea715bbd41",
+    "description": "redirect.music\n\n"
+  }, {
+    "intent": "redirect.product",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "ee9af8a9-9a80-4026-87e3-1c328d7d610c",
+    "description": "redirect.product\n\n"
+  }, {
+    "intent": "redirect.product.of.artist",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "e54e2857-809a-4617-b24c-0030d2c8c83c",
+    "description": "redirect.product.of.artist\n\n"
+  }, {
+    "intent": "redirect.refund.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "4799211c-4285-4959-a60b-e1d7604b400c",
+    "description": "redirect.refund.info\n\n"
+  }, {
+    "intent": "redirect.shipping.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "0a3e30ee-fb20-4bac-baa4-176410041c33",
+    "description": "redirect.shipping.info\n\n"
+  }, {
+    "intent": "redirect.swapping.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer Care",
+    "name": "4cf4bf19-f9af-483d-bdf8-0f82615369bc",
+    "description": "redirect.swapping.info\n\n"
+  }, {
+    "intent": "redirect.my.order",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "My Order",
+    "name": "1a71b890-deba-4b71-be7f-d0e790652265",
+    "description": "redirect.my.order\n\n"
+  }, {
+    "intent": "redirect.my.order.canceled",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "My Order",
+    "name": "f1926d51-be3c-47da-800f-df8f2b3cafab",
+    "description": "redirect.my.order.cancel\n\n"
+  }, {
+    "intent": "redirect.my.order.status",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "My Order",
+    "name": "188a15c7-09b7-482b-aab3-4c356886e9ca",
+    "description": "redirect.my.order.status\n\n"
+  }, {
+    "intent": "redirect.end",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "379ebef8-1df6-42a5-951e-773094433320",
+    "description": "redirect.end\n\n"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

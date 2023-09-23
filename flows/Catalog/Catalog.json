@@ -1,6 +1,63 @@
 {
   "name": "fc163049-65e5-48f3-83c0-812441227f10",
   "displayName": "Catalog",
+  "transitionRoutes": [ {
+    "intent": "redirect.artists.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Artist Overview",
+    "name": "cc19c09d-a6db-46bf-9518-8f67cdc08642",
+    "description": "redirect.artists.overview\n\n"
+  }, {
+    "intent": "redirect.product.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Product Overview",
+    "name": "194f1ac6-4b1b-414b-8791-050a10648c46",
+    "description": "redirect.product.overview\n\n"
+  }, {
+    "intent": "redirect.product.of.artist",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Product Overview",
+    "name": "e5643d5f-11e2-4571-b016-1570ce5eee85",
+    "description": "redirect.product.of.artist\n\n"
+  }, {
+    "intent": "redirect.shirts",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Shirts",
+    "name": "b438aece-c830-4b62-9a0a-77d37266149e",
+    "description": "redirect.shirts\n\n"
+  }, {
+    "intent": "redirect.music",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Music",
+    "name": "ed453a5e-9097-4ed4-b74a-bdb5940dada9",
+    "description": "redirect.music\n\n"
+  }, {
+    "intent": "redirect.end",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "c4ca9dc6-bfae-4189-8cab-1056ffbbd4c0",
+    "description": "redirect.end\n\n"
+  }, {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "c1b0f70c-aec0-4746-b345-2517b0312fe3",
+    "description": "redirect.home\n\n"
+  } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
