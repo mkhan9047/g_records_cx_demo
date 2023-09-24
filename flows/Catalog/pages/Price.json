@@ -5,11 +5,37 @@
   
   },
   "entryFulfillment": {
-    "messages": [ {
-      "text": {
-        "text": [ "PRICE TODO" ]
-      },
-      "languageCode": "en"
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.category = \"shirts\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "A t-shirt costs $25 and a longsleeve costs $30." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.category = \"music\"",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "A CD costs $15. The digital album on MP3 costs $10." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "A t-shirt costs $25 and a longsleeve costs $30. A CD costs $15 and a digital album on MP3 $10. In case you are interested in the Tour Movie, that one is $25." ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
     } ]
   },
   "transitionRoutes": [ {
